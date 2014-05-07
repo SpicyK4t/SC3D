@@ -4,6 +4,10 @@ class Controller_Auth extends Controller_Template {
 
 	public $template = 'base';
 
+	public function action_index() {
+		$this->action_login();
+	}
+
 	public function action_login()
 	{
 		$vista = new View('auth/login');

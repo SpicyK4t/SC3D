@@ -138,7 +138,7 @@ Kohana::modules(array(
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'auth',
-		'action'     => 'login',
+		'action'     => 'index',
 	));
 
 Cookie::$salt = 'Universidad de Celaya';
